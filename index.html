@@ -28,12 +28,6 @@
       <h1>jQuery Pagination</h1>
     </div>
 
-    <nav aria-label=...>
-      <ul class=pagination>
-        <li id="previous-page"><a href="javascript:void(0)" aria-label=Previous><span aria-hidden=true>&laquo;</span></a></li>
-      </ul>
-    </nav>
-
     <div id="page">
       <div class="list-group">
         <a href="javascript:void(0)" class="list-group-item active">
@@ -113,16 +107,20 @@
       </div>
     </div>
 
-  </div>
-  <!-- /container -->
+    <div class="row">
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
+    <div class="col-md-offset-5 col-md-12 center">
+      <nav aria-label=...>
+        <ul class=pagination>
+          <li id="previous-page"><a href="javascript:void(0)" aria-label=Previous><span aria-hidden=true>&laquo;</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified JavaScript -->
   <script src="scripts.js"></script>
+  
 </body>
 
 </html>
